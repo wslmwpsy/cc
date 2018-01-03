@@ -1,0 +1,176 @@
+﻿生成启动时间为 2015/8/9 15:51:49。
+     1>项目“C:\Users\turdidae\Desktop\job\flashktvEasy_Plus\flashktvEasy\flashktv10_4.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“C:\Users\turdidae\Desktop\job\flashktvEasy_Plus\KPlus\”。
+       InitializeBuildStatus:
+         正在创建“KPlus\flashktv10_4.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Oy- /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"KPlus\\" /Fd"KPlus\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ChildWnd.cpp CWebClient.cpp dbsql\DbSQL.cpp film\query_film_manager.cpp flashktv10.cpp flashktv10Wnd.cpp flashktv10Wnd2.cpp html\HtmlCtrl.cpp InterScreen\InterScreenManager.cpp json\json_reader.cpp json\json_value.cpp json\json_writer.cpp lyric\LyricManager.cpp member\memeber_song_manager.cpp PassManager\PassManager.cpp PluginsEx.cpp screenflash\shockwaveflash.cpp screenflash\TransparentWnd.cpp stdafx.cpp file\config_file.cpp file\file.cpp file\log.cpp common\CalendarConvert.cpp common\des.cpp common\exit_window.cpp common\mac_address.cpp common\parser_color.cpp common\ping.cpp common\Register.cpp common\rgb_conv.cpp common\show_picture.cpp common\string_function.cpp common\StringCodeConversion.cpp common\timer.cpp dog\watch_dog.cpp player\player.cpp player\player_hard.cpp player\player_manager.cpp player\shplayocx.cpp database\DBQuery.cpp database\Sqlite3DBMethod.cpp song\dj_song_manager.cpp song\public_video_manager.cpp song\query_song_manager.cpp song\select_song_manager.cpp song\song_info.cpp song\video_play_manager.cpp flash\CShockwaveFlash.cpp flash\FlashManage.cpp flash\FlashPlayer.cpp flash\image_animation_show.cpp parserxml\Markup.cpp parserxml\ParserXml.cpp com\inherit_com.cpp osd\osd_logo_list.cpp osd\osd_play_manager.cpp osd\osd_text_picture.cpp tape\audio.cpp screen_saver\screen_saver_picture.cpp screen_saver\screen_saver_window.cpp star\decrypt_singer_picture.cpp star\query_singer_manager.cpp star\singer_info.cpp handwriting\handwriting.cpp handwriting\ink_recognition.cpp bomb\bomb.cpp Ad\AD_manager.cpp doorplate_machine\DoorplateWnd.cpp service_picture\show_service_picture.cpp game\game_manager.cpp trendlist\TrendListManager.cpp U_disk\U_disk_song.cpp audio_effect\AudioEffect.cpp mysql\MySQL_DB.cpp QR_Encode\QR_Encode.cpp lyricSearch\SearchLyric.cpp os\XWinVer.cpp http\http.cpp
+         ChildWnd.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         CWebClient.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         DbSQL.cpp
+     1>dbsql\DbSQL.cpp(4): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         query_film_manager.cpp
+     1>film\query_film_manager.cpp(1): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         flashktv10.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         flashktv10Wnd.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         flashktv10Wnd2.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         HtmlCtrl.cpp
+     1>html\HtmlCtrl.cpp(10): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         InterScreenManager.cpp
+     1>InterScreen\InterScreenManager.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         json_reader.cpp
+     1>json\json_reader.cpp(1): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         json_value.cpp
+     1>json\json_value.cpp(1): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         json_writer.cpp
+     1>json\json_writer.cpp(1): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         LyricManager.cpp
+     1>lyric\LyricManager.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         memeber_song_manager.cpp
+     1>member\memeber_song_manager.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         PassManager.cpp
+     1>PassManager\PassManager.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         PluginsEx.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         shockwaveflash.cpp
+     1>screenflash\shockwaveflash.cpp(7): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         TransparentWnd.cpp
+     1>screenflash\TransparentWnd.cpp(4): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         stdafx.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         config_file.cpp
+     1>file\config_file.cpp(1): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         正在生成代码...
+         正在编译...
+         file.cpp
+     1>file\file.cpp(5): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         log.cpp
+     1>file\log.cpp(1): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         CalendarConvert.cpp
+     1>common\CalendarConvert.cpp(5): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         des.cpp
+     1>common\des.cpp(8): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         exit_window.cpp
+     1>common\exit_window.cpp(4): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         mac_address.cpp
+     1>common\mac_address.cpp(4): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         parser_color.cpp
+     1>common\parser_color.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         ping.cpp
+     1>common\ping.cpp(4): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         Register.cpp
+     1>common\Register.cpp(4): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         rgb_conv.cpp
+     1>common\rgb_conv.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         show_picture.cpp
+     1>common\show_picture.cpp(72): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         string_function.cpp
+     1>common\string_function.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         StringCodeConversion.cpp
+     1>common\StringCodeConversion.cpp(1): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         timer.cpp
+     1>common\timer.cpp(1): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         watch_dog.cpp
+     1>dog\watch_dog.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         player.cpp
+     1>player\player.cpp(4): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         player_hard.cpp
+     1>player\player_hard.cpp(4): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         player_manager.cpp
+     1>player\player_manager.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         shplayocx.cpp
+     1>player\shplayocx.cpp(7): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         DBQuery.cpp
+     1>database\DBQuery.cpp(1): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         正在生成代码...
+         正在编译...
+         Sqlite3DBMethod.cpp
+     1>database\Sqlite3DBMethod.cpp(1): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         dj_song_manager.cpp
+     1>song\dj_song_manager.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         public_video_manager.cpp
+     1>song\public_video_manager.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         query_song_manager.cpp
+     1>song\query_song_manager.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         select_song_manager.cpp
+     1>song\select_song_manager.cpp(1): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         song_info.cpp
+     1>song\song_info.cpp(1): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         video_play_manager.cpp
+     1>song\video_play_manager.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         CShockwaveFlash.cpp
+     1>flash\CShockwaveFlash.cpp(4): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         FlashManage.cpp
+     1>flash\FlashManage.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         FlashPlayer.cpp
+     1>flash\FlashPlayer.cpp(6): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         image_animation_show.cpp
+     1>flash\image_animation_show.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         Markup.cpp
+     1>parserxml\Markup.cpp(9): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         ParserXml.cpp
+     1>parserxml\ParserXml.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         inherit_com.cpp
+     1>com\inherit_com.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         osd_logo_list.cpp
+     1>osd\osd_logo_list.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         osd_play_manager.cpp
+     1>osd\osd_play_manager.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         osd_text_picture.cpp
+     1>osd\osd_text_picture.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         audio.cpp
+     1>tape\audio.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         screen_saver_picture.cpp
+     1>screen_saver\screen_saver_picture.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         screen_saver_window.cpp
+     1>screen_saver\screen_saver_window.cpp(4): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         正在生成代码...
+         正在编译...
+         decrypt_singer_picture.cpp
+     1>star\decrypt_singer_picture.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         query_singer_manager.cpp
+     1>star\query_singer_manager.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         singer_info.cpp
+     1>star\singer_info.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         handwriting.cpp
+     1>handwriting\handwriting.cpp(4): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         ink_recognition.cpp
+     1>handwriting\ink_recognition.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         bomb.cpp
+     1>bomb\bomb.cpp(4): fatal error C1083: 无法打开包括文件:“stdAfx.h”: No such file or directory
+         AD_manager.cpp
+     1>Ad\AD_manager.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         DoorplateWnd.cpp
+     1>doorplate_machine\DoorplateWnd.cpp(4): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         show_service_picture.cpp
+     1>service_picture\show_service_picture.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         game_manager.cpp
+     1>game\game_manager.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         TrendListManager.cpp
+     1>trendlist\TrendListManager.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         U_disk_song.cpp
+     1>U_disk\U_disk_song.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         AudioEffect.cpp
+     1>audio_effect\AudioEffect.cpp(4): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         MySQL_DB.cpp
+     1>mysql\MySQL_DB.cpp(1): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         QR_Encode.cpp
+     1>QR_Encode\QR_Encode.cpp(4): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         SearchLyric.cpp
+     1>lyricSearch\SearchLyric.cpp(1): fatal error C1083: 无法打开包括文件:“StdAfx.h”: No such file or directory
+         XWinVer.cpp
+     1>os\XWinVer.cpp(65): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         http.cpp
+     1>http\http.cpp(1): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“C:\Users\turdidae\Desktop\job\flashktvEasy_Plus\flashktvEasy\flashktv10_4.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.66

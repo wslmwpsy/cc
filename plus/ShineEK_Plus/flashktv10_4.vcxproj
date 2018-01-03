@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A6DC273E-92A2-4BE6-8EAC-1432700A6C5A}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">EKPlus</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">EKPlus_Debug</TargetName>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</EmbedManifest>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</EmbedManifest>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)\include;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Program Files\Microsoft SDKs\Windows\v7.1\Include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <TreatWarningAsError>false</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>VMProtectSDK32.lib;ShineLockClientD.lib;hplayerua.lib;mixdll_debug.lib;libmp3lame.lib;libmysql.lib;sqlite3.8.2d.lib;DogClientD.lib;ccddt.lib;VodADParse.lib;Winmm.lib;ws2_32.lib;wldap32.lib;CommunicationLibraryD.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>.\lib;C:\Program Files\Microsoft SDKs\Windows\v7.1\Lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <IgnoreSpecificDefaultLibraries>LIBCMT.lib</IgnoreSpecificDefaultLibraries>
+      <DelayLoadDLLs>%(DelayLoadDLLs)</DelayLoadDLLs>
+      <StackReserveSize>5242880</StackReserveSize>
+      <StackCommitSize>5242880</StackCommitSize>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files\Microsoft SDKs\Windows\v7.1\Include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>VMProtectSDK32.lib;ShineLockClientR.lib;hplayerua.lib;libmp3lame.lib;mixdll.lib;libmysql.lib;sqlite3.8.2.lib;DogClientS.lib;ccddt.lib;VodADParse.lib;Winmm.lib;ws2_32.lib;wldap32.lib;CommunicationLibrary.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.\lib;C:\Program Files\Microsoft SDKs\Windows\v7.1\Lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <StackReserveSize>5242880</StackReserveSize>
+      <StackCommitSize>5242880</StackCommitSize>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>copy  $(OutputPath)$(TargetFileName) $(SolutionDir)Debug</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ChildWnd.cpp" />
+    <ClCompile Include="common\ExifTags.cpp" />
+    <ClCompile Include="common\Mixer.cpp" />
+    <ClCompile Include="common\XUnzip.cpp" />
+    <ClCompile Include="dbsql\DbSQL.cpp" />
+    <ClCompile Include="film\query_film_manager.cpp" />
+    <ClCompile Include="flashktv10.cpp" />
+    <ClCompile Include="flashktv10Wnd.cpp" />
+    <ClCompile Include="flashktv10Wnd2.cpp" />
+    <ClCompile Include="html\HtmlCtrl.cpp" />
+    <ClCompile Include="InterScreen\InterScreenManager.cpp" />
+    <ClCompile Include="json\json_reader.cpp" />
+    <ClCompile Include="json\json_value.cpp" />
+    <ClCompile Include="json\json_writer.cpp" />
+    <ClCompile Include="lyric\LyricManager.cpp" />
+    <ClCompile Include="lyric\ParseLyricsForKSC.cpp" />
+    <ClCompile Include="member\memeber_song_manager.cpp" />
+    <ClCompile Include="PassManager\PassManager.cpp" />
+    <ClCompile Include="PluginsEx.cpp" />
+    <ClCompile Include="RTCOMDLL\RTCOMDLL_i.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="screenflash\shockwaveflash.cpp" />
+    <ClCompile Include="screenflash\TransparentWnd.cpp" />
+    <ClCompile Include="ShineAxBrowse\CDShineAxBrowse.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="file\config_file.cpp" />
+    <ClCompile Include="file\file.cpp" />
+    <ClCompile Include="file\log.cpp" />
+    <ClCompile Include="common\CalendarConvert.cpp" />
+    <ClCompile Include="common\des.cpp" />
+    <ClCompile Include="common\exit_window.cpp" />
+    <ClCompile Include="common\mac_address.cpp" />
+    <ClCompile Include="common\parser_color.cpp" />
+    <ClCompile Include="common\ping.cpp" />
+    <ClCompile Include="common\Register.cpp" />
+    <ClCompile Include="common\rgb_conv.cpp" />
+    <ClCompile Include="common\show_picture.cpp" />
+    <ClCompile Include="common\string_function.cpp" />
+    <ClCompile Include="common\StringCodeConversion.cpp" />
+    <ClCompile Include="common\timer.cpp" />
+    <ClCompile Include="dog\watch_dog.cpp" />
+    <ClCompile Include="player\player.cpp" />
+    <ClCompile Include="player\player_hard.cpp" />
+    <ClCompile Include="player\player_manager.cpp" />
+    <ClCompile Include="player\shplayocx.cpp" />
+    <ClCompile Include="database\DBQuery.cpp" />
+    <ClCompile Include="database\Sqlite3DBMethod.cpp" />
+    <ClCompile Include="song\dj_song_manager.cpp" />
+    <ClCompile Include="song\public_video_manager.cpp" />
+    <ClCompile Include="song\query_song_manager.cpp" />
+    <ClCompile Include="song\select_song_manager.cpp" />
+    <ClCompile Include="song\song_info.cpp" />
+    <ClCompile Include="song\video_play_manager.cpp" />
+    <ClCompile Include="flash\CShockwaveFlash.cpp" />
+    <ClCompile Include="flash\FlashManage.cpp" />
+    <ClCompile Include="flash\FlashPlayer.cpp" />
+    <ClCompile Include="flash\image_animation_show.cpp" />
+    <ClCompile Include="parserxml\Markup.cpp" />
+    <ClCompile Include="parserxml\ParserXml.cpp" />
+    <ClCompile Include="com\inherit_com.cpp" />
+    <ClCompile Include="osd\osd_logo_list.cpp" />
+    <ClCompile Include="osd\osd_play_manager.cpp" />
+    <ClCompile Include="osd\osd_text_picture.cpp" />
+    <ClCompile Include="tape\audio.cpp" />
+    <ClCompile Include="screen_saver\screen_saver_picture.cpp" />
+    <ClCompile Include="screen_saver\screen_saver_window.cpp" />
+    <ClCompile Include="star\decrypt_singer_picture.cpp" />
+    <ClCompile Include="star\query_singer_manager.cpp" />
+    <ClCompile Include="star\singer_info.cpp" />
+    <ClCompile Include="handwriting\handwriting.cpp" />
+    <ClCompile Include="handwriting\ink_recognition.cpp" />
+    <ClCompile Include="bomb\bomb.cpp" />
+    <ClCompile Include="Ad\AD_manager.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="doorplate_machine\DoorplateWnd.cpp" />
+    <ClCompile Include="service_picture\show_service_picture.cpp" />
+    <ClCompile Include="game\game_manager.cpp" />
+    <ClCompile Include="trendlist\TrendListManager.cpp" />
+    <ClCompile Include="U_disk\U_disk_song.cpp" />
+    <ClCompile Include="audio_effect\AudioEffect.cpp" />
+    <ClCompile Include="mysql\MySQL_DB.cpp" />
+    <ClCompile Include="QR_Encode\QR_Encode.cpp" />
+    <ClCompile Include="lyricSearch\SearchLyric.cpp" />
+    <ClCompile Include="os\XWinVer.cpp" />
+    <ClCompile Include="http\http.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChildWnd.h" />
+    <ClInclude Include="CommLib\BaseSocket.h" />
+    <ClInclude Include="CommLib\http.h" />
+    <ClInclude Include="CommLib\ping.h" />
+    <ClInclude Include="common\ExifTags.h" />
+    <ClInclude Include="common\Mixer.h" />
+    <ClInclude Include="common\XUnzip.h" />
+    <ClInclude Include="common\zconf.h" />
+    <ClInclude Include="common\zlib.h" />
+    <ClInclude Include="dbsql\DbSQL.h" />
+    <ClInclude Include="dog\ShineLockClient.h" />
+    <ClInclude Include="film\query_film_manager.h" />
+    <ClInclude Include="flashktv10.h" />
+    <ClInclude Include="flashktv10Wnd.h" />
+    <ClInclude Include="folder_name.h" />
+    <ClInclude Include="global_variable.h" />
+    <ClInclude Include="html\HtmlCtrl.h" />
+    <ClInclude Include="InterScreen\InterScreenManager.h" />
+    <ClInclude Include="json\autolink.h" />
+    <ClInclude Include="json\config.h" />
+    <ClInclude Include="json\features.h" />
+    <ClInclude Include="json\forwards.h" />
+    <ClInclude Include="json\json.h" />
+    <ClInclude Include="json\json_batchallocator.h" />
+    <ClInclude Include="json\reader.h" />
+    <ClInclude Include="json\value.h" />
+    <ClInclude Include="json\writer.h" />
+    <ClInclude Include="language.h" />
+    <ClInclude Include="lyric\LyricManager.h" />
+    <ClInclude Include="lyric\ParseLyricsForKSC.h" />
+    <ClInclude Include="member\memeber_song_manager.h" />
+    <ClInclude Include="message.h" />
+    <ClInclude Include="PassManager\PassManager.h" />
+    <ClInclude Include="PluginsEx.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RTCOMDLL\RTCOMDLL.h" />
+    <ClInclude Include="RTCOMDLL\RTCOMDLL_Data.h" />
+    <ClInclude Include="screenflash\shockwaveflash.h" />
+    <ClInclude Include="screenflash\TransparentWnd.h" />
+    <ClInclude Include="ShineAxBrowse\CDShineAxBrowse.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="trendlist\TrendListManager.h" />
+    <ClInclude Include="version_control.h" />
+    <ClInclude Include="file\config_file.h" />
+    <ClInclude Include="file\file.h" />
+    <ClInclude Include="file\log.h" />
+    <ClInclude Include="common\CalendarConvert.h" />
+    <ClInclude Include="common\des.h" />
+    <ClInclude Include="common\exit_window.h" />
+    <ClInclude Include="common\init_socket.h" />
+    <ClInclude Include="common\llock.h" />
+    <ClInclude Include="common\mac_address.h" />
+    <ClInclude Include="common\parser_color.h" />
+    <ClInclude Include="common\ping.h" />
+    <ClInclude Include="common\Register.h" />
+    <ClInclude Include="common\rgb_conv.h" />
+    <ClInclude Include="common\show_picture.h" />
+    <ClInclude Include="common\string_function.h" />
+    <ClInclude Include="common\StringCodeConversion.h" />
+    <ClInclude Include="common\timer.h" />
+    <ClInclude Include="ministry_of_culture\ccddt.h" />
+    <ClInclude Include="ministry_of_culture\VodADInterface.h" />
+    <ClInclude Include="dog\DogClient.h" />
+    <ClInclude Include="dog\watch_dog.h" />
+    <ClInclude Include="player\player.h" />
+    <ClInclude Include="player\player_data_type.h" />
+    <ClInclude Include="player\player_hard.h" />
+    <ClInclude Include="player\player_manager.h" />
+    <ClInclude Include="player\player_notify.h" />
+    <ClInclude Include="player\shplayocx.h" />
+    <ClInclude Include="database\DBDataTypeDef.h" />
+    <ClInclude Include="database\DBQuery.h" />
+    <ClInclude Include="database\DBQueryCondition.h" />
+    <ClInclude Include="database\sqlite3.h" />
+    <ClInclude Include="database\Sqlite3DBMethod.h" />
+    <ClInclude Include="song\dj_song_manager.h" />
+    <ClInclude Include="song\public_video_manager.h" />
+    <ClInclude Include="song\query_song_manager.h" />
+    <ClInclude Include="song\select_song_manager.h" />
+    <ClInclude Include="song\song_info.h" />
+    <ClInclude Include="song\song_Variable.h" />
+    <ClInclude Include="song\video_play_manager.h" />
+    <ClInclude Include="flash\CShockwaveFlash.h" />
+    <ClInclude Include="flash\FlashManage.h" />
+    <ClInclude Include="flash\FlashPlayer.h" />
+    <ClInclude Include="flash\image_animation_show.h" />
+    <ClInclude Include="flash\PageData.h" />
+    <ClInclude Include="flash\PageVariable.h" />
+    <ClInclude Include="parserxml\Markup.h" />
+    <ClInclude Include="parserxml\ParserXml.h" />
+    <ClInclude Include="com\com_class.h" />
+    <ClInclude Include="com\com_value.h" />
+    <ClInclude Include="com\com_variable.h" />
+    <ClInclude Include="com\inherit_com.h" />
+    <ClInclude Include="osd\osd_logo_list.h" />
+    <ClInclude Include="osd\osd_message.h" />
+    <ClInclude Include="osd\osd_play_manager.h" />
+    <ClInclude Include="osd\osd_text_picture.h" />
+    <ClInclude Include="tape\audio.h" />
+    <ClInclude Include="tape\mixerlib.h" />
+    <ClInclude Include="screen_saver\screen_saver_picture.h" />
+    <ClInclude Include="screen_saver\screen_saver_variable.h" />
+    <ClInclude Include="screen_saver\screen_saver_window.h" />
+    <ClInclude Include="star\decrypt_singer_picture.h" />
+    <ClInclude Include="star\picture_key.h" />
+    <ClInclude Include="star\query_singer_manager.h" />
+    <ClInclude Include="star\singer_info.h" />
+    <ClInclude Include="star\singer_variable.h" />
+    <ClInclude Include="handwriting\handwriting.h" />
+    <ClInclude Include="handwriting\ink_recognition.h" />
+    <ClInclude Include="handwriting\sink_event.h" />
+    <ClInclude Include="handwriting\TpcConpt.h" />
+    <ClInclude Include="bomb\bomb.h" />
+    <ClInclude Include="Ad\AD_manager.h" />
+    <ClInclude Include="doorplate_machine\DoorplateWnd.h" />
+    <ClInclude Include="service_picture\show_service_picture.h" />
+    <ClInclude Include="game\game_manager.h" />
+    <ClInclude Include="U_disk\U_disk_song.h" />
+    <ClInclude Include="audio_effect\AudioEffect.h" />
+    <ClInclude Include="mysql\MySQL_DB.h" />
+    <ClInclude Include="QR_Encode\QR_Encode.h" />
+    <ClInclude Include="lyricSearch\SearchLyric.h" />
+    <ClInclude Include="os\XWinVer.h" />
+    <ClInclude Include="http\http.h" />
+    <ClInclude Include="http\lame.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="json\json_internalarray.inl" />
+    <None Include="json\json_internalmap.inl" />
+    <None Include="json\json_valueiterator.inl" />
+    <None Include="json\sconscript" />
+    <None Include="res\flashktv10.ico" />
+    <None Include="res\flashktv10.rc2" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="flashktv10.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\flashktv10.manifest" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="flashktv10.rc" _x007B_7F3EF33B-510F-4B40-AFBE-DE305744A669_x007D_="CDShineAxBrowse" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

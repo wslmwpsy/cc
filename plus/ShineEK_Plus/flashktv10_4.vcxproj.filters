@@ -1,0 +1,797 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="file">
+      <UniqueIdentifier>{b0663b62-55fe-4de2-a257-de3be0e0501c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{52e7650a-9695-46b1-ab8e-59f3e9446c9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ministry_of_culture">
+      <UniqueIdentifier>{f85d1be5-3639-442f-a1c6-e7deadc86846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dog">
+      <UniqueIdentifier>{58baec58-f5bf-43d2-b7f7-eef2ea6b5c87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="player">
+      <UniqueIdentifier>{af30fdd9-3ed8-480d-aea1-4389b0e1b701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="database">
+      <UniqueIdentifier>{4577b63b-0846-4267-b4c0-c1ec24c6c144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="song">
+      <UniqueIdentifier>{283b8511-b78f-4972-ad9b-c353eb17890b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flash">
+      <UniqueIdentifier>{3e1a295d-9903-4281-b6ea-5d9049a49c8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="parserxml">
+      <UniqueIdentifier>{3ef9ee86-47ec-40f2-ae42-989fd85bcf4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="com">
+      <UniqueIdentifier>{16b7537c-4196-458a-ac1b-f3c9c2e2e46d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="osd">
+      <UniqueIdentifier>{fe56ee57-ff67-42ed-a323-9ec51bbd5c1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tape">
+      <UniqueIdentifier>{bf9044d9-cc8b-4443-b6c0-7cd123311fdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="screen_saver">
+      <UniqueIdentifier>{92c413b8-bb4b-4be2-bf82-363868cdf234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="star">
+      <UniqueIdentifier>{48239f90-4863-4f0a-b40f-89dbaab23582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="handwriting">
+      <UniqueIdentifier>{64fe60cb-c03f-41fc-955a-40b2ecdcb9bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bomb">
+      <UniqueIdentifier>{06891a96-4120-4bf3-b835-10ba191e960b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AD">
+      <UniqueIdentifier>{e0a9033f-4c4b-4e02-b8ce-97c908db84e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="doorplate_machine">
+      <UniqueIdentifier>{63349a77-54ed-4bad-88be-3e5a9a280d8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="service_picture">
+      <UniqueIdentifier>{5e14d235-0b9d-4b94-82b8-ef9b78748632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{df44c096-1324-47a5-825b-9e17aa284412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="U_disk">
+      <UniqueIdentifier>{ecb143a2-27b3-4a33-bb61-71dc27837089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_effect">
+      <UniqueIdentifier>{5bee247d-a7b4-4a47-86de-60fc8a307d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mysql">
+      <UniqueIdentifier>{913c46c9-49de-4d50-aec3-d31e583c1aca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QR_Encode">
+      <UniqueIdentifier>{252d8d61-08c1-4736-9ca8-079458ded435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lyricSearch">
+      <UniqueIdentifier>{2595ed3a-fbe2-4d36-89f0-89814998ce73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="os">
+      <UniqueIdentifier>{401b00e6-bd20-48fe-8dc4-c622e489effd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="http">
+      <UniqueIdentifier>{bf38b34b-423b-4c5e-a482-99f567816ffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="member">
+      <UniqueIdentifier>{e202e30a-de4d-45e8-9080-ea35dee38f84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{f514fc73-26ae-4e7e-9738-a750b22eb2dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="html">
+      <UniqueIdentifier>{c1c876e7-d42d-4c4d-9a32-2fd6b7bc5580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dbsql">
+      <UniqueIdentifier>{ba15652b-46db-44ea-8d17-b7be96659b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PluginsEx">
+      <UniqueIdentifier>{def47c4d-7c46-4260-b7bb-cfa64faf75fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RTCOMDLL">
+      <UniqueIdentifier>{e02ea574-56ac-4dd3-9f65-5855de9600de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="film">
+      <UniqueIdentifier>{3f3e0226-457e-45aa-a462-d198f813465e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lyric">
+      <UniqueIdentifier>{d4737e19-ebee-43fa-b6f1-e70afc92046e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="screenflash">
+      <UniqueIdentifier>{6a79be76-4f61-4cad-be7f-87e35967cce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trendlist">
+      <UniqueIdentifier>{ebc94fd0-9fcc-4aea-9589-a7ec1c291136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InterScreen">
+      <UniqueIdentifier>{18a3db24-ebb5-46c2-8cbb-afd07a21b39e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PassManager">
+      <UniqueIdentifier>{233cc26d-a6cc-49b9-8657-5cf4888b690e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShineAxBrowse">
+      <UniqueIdentifier>{316e2c1a-3b5e-4605-bc8b-01a60addb034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommLib">
+      <UniqueIdentifier>{a2228ff9-f795-43ef-a86b-7cc34e34d76c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChildWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="flashktv10.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="flashktv10Wnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="flashktv10Wnd2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="file\config_file.cpp">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="file\file.cpp">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="file\log.cpp">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="common\CalendarConvert.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\des.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\exit_window.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\mac_address.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\parser_color.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\ping.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Register.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\rgb_conv.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\show_picture.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\string_function.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\StringCodeConversion.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\timer.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="dog\watch_dog.cpp">
+      <Filter>dog</Filter>
+    </ClCompile>
+    <ClCompile Include="player\player.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="player\player_hard.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="player\player_manager.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="player\shplayocx.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="database\DBQuery.cpp">
+      <Filter>database</Filter>
+    </ClCompile>
+    <ClCompile Include="database\Sqlite3DBMethod.cpp">
+      <Filter>database</Filter>
+    </ClCompile>
+    <ClCompile Include="song\dj_song_manager.cpp">
+      <Filter>song</Filter>
+    </ClCompile>
+    <ClCompile Include="song\public_video_manager.cpp">
+      <Filter>song</Filter>
+    </ClCompile>
+    <ClCompile Include="song\query_song_manager.cpp">
+      <Filter>song</Filter>
+    </ClCompile>
+    <ClCompile Include="song\select_song_manager.cpp">
+      <Filter>song</Filter>
+    </ClCompile>
+    <ClCompile Include="song\song_info.cpp">
+      <Filter>song</Filter>
+    </ClCompile>
+    <ClCompile Include="song\video_play_manager.cpp">
+      <Filter>song</Filter>
+    </ClCompile>
+    <ClCompile Include="flash\CShockwaveFlash.cpp">
+      <Filter>flash</Filter>
+    </ClCompile>
+    <ClCompile Include="flash\FlashManage.cpp">
+      <Filter>flash</Filter>
+    </ClCompile>
+    <ClCompile Include="flash\FlashPlayer.cpp">
+      <Filter>flash</Filter>
+    </ClCompile>
+    <ClCompile Include="flash\image_animation_show.cpp">
+      <Filter>flash</Filter>
+    </ClCompile>
+    <ClCompile Include="parserxml\ParserXml.cpp">
+      <Filter>parserxml</Filter>
+    </ClCompile>
+    <ClCompile Include="com\inherit_com.cpp">
+      <Filter>com</Filter>
+    </ClCompile>
+    <ClCompile Include="osd\osd_logo_list.cpp">
+      <Filter>osd</Filter>
+    </ClCompile>
+    <ClCompile Include="osd\osd_play_manager.cpp">
+      <Filter>osd</Filter>
+    </ClCompile>
+    <ClCompile Include="osd\osd_text_picture.cpp">
+      <Filter>osd</Filter>
+    </ClCompile>
+    <ClCompile Include="tape\audio.cpp">
+      <Filter>tape</Filter>
+    </ClCompile>
+    <ClCompile Include="screen_saver\screen_saver_picture.cpp">
+      <Filter>screen_saver</Filter>
+    </ClCompile>
+    <ClCompile Include="screen_saver\screen_saver_window.cpp">
+      <Filter>screen_saver</Filter>
+    </ClCompile>
+    <ClCompile Include="star\decrypt_singer_picture.cpp">
+      <Filter>star</Filter>
+    </ClCompile>
+    <ClCompile Include="star\query_singer_manager.cpp">
+      <Filter>star</Filter>
+    </ClCompile>
+    <ClCompile Include="star\singer_info.cpp">
+      <Filter>star</Filter>
+    </ClCompile>
+    <ClCompile Include="handwriting\handwriting.cpp">
+      <Filter>handwriting</Filter>
+    </ClCompile>
+    <ClCompile Include="handwriting\ink_recognition.cpp">
+      <Filter>handwriting</Filter>
+    </ClCompile>
+    <ClCompile Include="bomb\bomb.cpp">
+      <Filter>bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="Ad\AD_manager.cpp">
+      <Filter>AD</Filter>
+    </ClCompile>
+    <ClCompile Include="doorplate_machine\DoorplateWnd.cpp">
+      <Filter>doorplate_machine</Filter>
+    </ClCompile>
+    <ClCompile Include="service_picture\show_service_picture.cpp">
+      <Filter>service_picture</Filter>
+    </ClCompile>
+    <ClCompile Include="game\game_manager.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="U_disk\U_disk_song.cpp">
+      <Filter>U_disk</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_effect\AudioEffect.cpp">
+      <Filter>audio_effect</Filter>
+    </ClCompile>
+    <ClCompile Include="mysql\MySQL_DB.cpp">
+      <Filter>mysql</Filter>
+    </ClCompile>
+    <ClCompile Include="QR_Encode\QR_Encode.cpp">
+      <Filter>QR_Encode</Filter>
+    </ClCompile>
+    <ClCompile Include="lyricSearch\SearchLyric.cpp">
+      <Filter>lyricSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="os\XWinVer.cpp">
+      <Filter>os</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http.cpp">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="member\memeber_song_manager.cpp">
+      <Filter>member</Filter>
+    </ClCompile>
+    <ClCompile Include="parserxml\Markup.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_reader.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_value.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_writer.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="html\HtmlCtrl.cpp">
+      <Filter>html</Filter>
+    </ClCompile>
+    <ClCompile Include="dbsql\DbSQL.cpp">
+      <Filter>dbsql</Filter>
+    </ClCompile>
+    <ClCompile Include="PluginsEx.cpp">
+      <Filter>PluginsEx</Filter>
+    </ClCompile>
+    <ClCompile Include="RTCOMDLL\RTCOMDLL_i.c">
+      <Filter>RTCOMDLL</Filter>
+    </ClCompile>
+    <ClCompile Include="film\query_film_manager.cpp">
+      <Filter>film</Filter>
+    </ClCompile>
+    <ClCompile Include="lyric\LyricManager.cpp">
+      <Filter>Lyric</Filter>
+    </ClCompile>
+    <ClCompile Include="screenflash\shockwaveflash.cpp">
+      <Filter>screenflash</Filter>
+    </ClCompile>
+    <ClCompile Include="trendlist\TrendListManager.cpp">
+      <Filter>trendlist</Filter>
+    </ClCompile>
+    <ClCompile Include="InterScreen\InterScreenManager.cpp">
+      <Filter>InterScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="screenflash\TransparentWnd.cpp">
+      <Filter>screenflash</Filter>
+    </ClCompile>
+    <ClCompile Include="PassManager\PassManager.cpp">
+      <Filter>PassManager</Filter>
+    </ClCompile>
+    <ClCompile Include="lyric\ParseLyricsForKSC.cpp">
+      <Filter>Lyric</Filter>
+    </ClCompile>
+    <ClCompile Include="common\XUnzip.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Mixer.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\ExifTags.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="ShineAxBrowse\CDShineAxBrowse.cpp">
+      <Filter>ShineAxBrowse</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChildWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="flashktv10.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="flashktv10Wnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="folder_name.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="global_variable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="language.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="message.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="version_control.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="file\config_file.h">
+      <Filter>file</Filter>
+    </ClInclude>
+    <ClInclude Include="file\file.h">
+      <Filter>file</Filter>
+    </ClInclude>
+    <ClInclude Include="file\log.h">
+      <Filter>file</Filter>
+    </ClInclude>
+    <ClInclude Include="common\CalendarConvert.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\des.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\exit_window.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\init_socket.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\llock.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\mac_address.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\parser_color.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ping.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Register.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\rgb_conv.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\show_picture.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\string_function.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\StringCodeConversion.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\timer.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="ministry_of_culture\ccddt.h">
+      <Filter>ministry_of_culture</Filter>
+    </ClInclude>
+    <ClInclude Include="ministry_of_culture\VodADInterface.h">
+      <Filter>ministry_of_culture</Filter>
+    </ClInclude>
+    <ClInclude Include="dog\DogClient.h">
+      <Filter>dog</Filter>
+    </ClInclude>
+    <ClInclude Include="dog\watch_dog.h">
+      <Filter>dog</Filter>
+    </ClInclude>
+    <ClInclude Include="player\player.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="player\player_data_type.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="player\player_hard.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="player\player_manager.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="player\player_notify.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="player\shplayocx.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="database\DBDataTypeDef.h">
+      <Filter>database</Filter>
+    </ClInclude>
+    <ClInclude Include="database\DBQuery.h">
+      <Filter>database</Filter>
+    </ClInclude>
+    <ClInclude Include="database\DBQueryCondition.h">
+      <Filter>database</Filter>
+    </ClInclude>
+    <ClInclude Include="database\sqlite3.h">
+      <Filter>database</Filter>
+    </ClInclude>
+    <ClInclude Include="database\Sqlite3DBMethod.h">
+      <Filter>database</Filter>
+    </ClInclude>
+    <ClInclude Include="song\dj_song_manager.h">
+      <Filter>song</Filter>
+    </ClInclude>
+    <ClInclude Include="song\public_video_manager.h">
+      <Filter>song</Filter>
+    </ClInclude>
+    <ClInclude Include="song\query_song_manager.h">
+      <Filter>song</Filter>
+    </ClInclude>
+    <ClInclude Include="song\select_song_manager.h">
+      <Filter>song</Filter>
+    </ClInclude>
+    <ClInclude Include="song\song_info.h">
+      <Filter>song</Filter>
+    </ClInclude>
+    <ClInclude Include="song\song_Variable.h">
+      <Filter>song</Filter>
+    </ClInclude>
+    <ClInclude Include="song\video_play_manager.h">
+      <Filter>song</Filter>
+    </ClInclude>
+    <ClInclude Include="flash\CShockwaveFlash.h">
+      <Filter>flash</Filter>
+    </ClInclude>
+    <ClInclude Include="flash\FlashManage.h">
+      <Filter>flash</Filter>
+    </ClInclude>
+    <ClInclude Include="flash\FlashPlayer.h">
+      <Filter>flash</Filter>
+    </ClInclude>
+    <ClInclude Include="flash\image_animation_show.h">
+      <Filter>flash</Filter>
+    </ClInclude>
+    <ClInclude Include="flash\PageData.h">
+      <Filter>flash</Filter>
+    </ClInclude>
+    <ClInclude Include="flash\PageVariable.h">
+      <Filter>flash</Filter>
+    </ClInclude>
+    <ClInclude Include="parserxml\Markup.h">
+      <Filter>parserxml</Filter>
+    </ClInclude>
+    <ClInclude Include="parserxml\ParserXml.h">
+      <Filter>parserxml</Filter>
+    </ClInclude>
+    <ClInclude Include="com\com_class.h">
+      <Filter>com</Filter>
+    </ClInclude>
+    <ClInclude Include="com\com_value.h">
+      <Filter>com</Filter>
+    </ClInclude>
+    <ClInclude Include="com\com_variable.h">
+      <Filter>com</Filter>
+    </ClInclude>
+    <ClInclude Include="com\inherit_com.h">
+      <Filter>com</Filter>
+    </ClInclude>
+    <ClInclude Include="osd\osd_logo_list.h">
+      <Filter>osd</Filter>
+    </ClInclude>
+    <ClInclude Include="osd\osd_message.h">
+      <Filter>osd</Filter>
+    </ClInclude>
+    <ClInclude Include="osd\osd_play_manager.h">
+      <Filter>osd</Filter>
+    </ClInclude>
+    <ClInclude Include="osd\osd_text_picture.h">
+      <Filter>osd</Filter>
+    </ClInclude>
+    <ClInclude Include="tape\audio.h">
+      <Filter>tape</Filter>
+    </ClInclude>
+    <ClInclude Include="tape\mixerlib.h">
+      <Filter>tape</Filter>
+    </ClInclude>
+    <ClInclude Include="screen_saver\screen_saver_picture.h">
+      <Filter>screen_saver</Filter>
+    </ClInclude>
+    <ClInclude Include="screen_saver\screen_saver_variable.h">
+      <Filter>screen_saver</Filter>
+    </ClInclude>
+    <ClInclude Include="screen_saver\screen_saver_window.h">
+      <Filter>screen_saver</Filter>
+    </ClInclude>
+    <ClInclude Include="star\decrypt_singer_picture.h">
+      <Filter>star</Filter>
+    </ClInclude>
+    <ClInclude Include="star\picture_key.h">
+      <Filter>star</Filter>
+    </ClInclude>
+    <ClInclude Include="star\query_singer_manager.h">
+      <Filter>star</Filter>
+    </ClInclude>
+    <ClInclude Include="star\singer_info.h">
+      <Filter>star</Filter>
+    </ClInclude>
+    <ClInclude Include="star\singer_variable.h">
+      <Filter>star</Filter>
+    </ClInclude>
+    <ClInclude Include="handwriting\handwriting.h">
+      <Filter>handwriting</Filter>
+    </ClInclude>
+    <ClInclude Include="handwriting\ink_recognition.h">
+      <Filter>handwriting</Filter>
+    </ClInclude>
+    <ClInclude Include="handwriting\sink_event.h">
+      <Filter>handwriting</Filter>
+    </ClInclude>
+    <ClInclude Include="handwriting\TpcConpt.h">
+      <Filter>handwriting</Filter>
+    </ClInclude>
+    <ClInclude Include="bomb\bomb.h">
+      <Filter>bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="Ad\AD_manager.h">
+      <Filter>AD</Filter>
+    </ClInclude>
+    <ClInclude Include="doorplate_machine\DoorplateWnd.h">
+      <Filter>doorplate_machine</Filter>
+    </ClInclude>
+    <ClInclude Include="service_picture\show_service_picture.h">
+      <Filter>service_picture</Filter>
+    </ClInclude>
+    <ClInclude Include="game\game_manager.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="U_disk\U_disk_song.h">
+      <Filter>U_disk</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_effect\AudioEffect.h">
+      <Filter>audio_effect</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\MySQL_DB.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="QR_Encode\QR_Encode.h">
+      <Filter>QR_Encode</Filter>
+    </ClInclude>
+    <ClInclude Include="lyricSearch\SearchLyric.h">
+      <Filter>lyricSearch</Filter>
+    </ClInclude>
+    <ClInclude Include="os\XWinVer.h">
+      <Filter>os</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\lame.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="member\memeber_song_manager.h">
+      <Filter>member</Filter>
+    </ClInclude>
+    <ClInclude Include="dog\ShineLockClient.h">
+      <Filter>dog</Filter>
+    </ClInclude>
+    <ClInclude Include="json\autolink.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\config.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\features.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\forwards.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json_batchallocator.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\reader.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\value.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\writer.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="html\HtmlCtrl.h">
+      <Filter>html</Filter>
+    </ClInclude>
+    <ClInclude Include="dbsql\DbSQL.h">
+      <Filter>dbsql</Filter>
+    </ClInclude>
+    <ClInclude Include="PluginsEx.h">
+      <Filter>PluginsEx</Filter>
+    </ClInclude>
+    <ClInclude Include="RTCOMDLL\RTCOMDLL.h">
+      <Filter>RTCOMDLL</Filter>
+    </ClInclude>
+    <ClInclude Include="RTCOMDLL\RTCOMDLL_Data.h">
+      <Filter>RTCOMDLL</Filter>
+    </ClInclude>
+    <ClInclude Include="film\query_film_manager.h">
+      <Filter>film</Filter>
+    </ClInclude>
+    <ClInclude Include="lyric\LyricManager.h">
+      <Filter>Lyric</Filter>
+    </ClInclude>
+    <ClInclude Include="screenflash\shockwaveflash.h">
+      <Filter>screenflash</Filter>
+    </ClInclude>
+    <ClInclude Include="trendlist\TrendListManager.h">
+      <Filter>trendlist</Filter>
+    </ClInclude>
+    <ClInclude Include="InterScreen\InterScreenManager.h">
+      <Filter>InterScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="screenflash\TransparentWnd.h">
+      <Filter>screenflash</Filter>
+    </ClInclude>
+    <ClInclude Include="PassManager\PassManager.h">
+      <Filter>PassManager</Filter>
+    </ClInclude>
+    <ClInclude Include="lyric\ParseLyricsForKSC.h">
+      <Filter>Lyric</Filter>
+    </ClInclude>
+    <ClInclude Include="common\XUnzip.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\zconf.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\zlib.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Mixer.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ExifTags.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="CommLib\BaseSocket.h">
+      <Filter>CommLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CommLib\http.h">
+      <Filter>CommLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CommLib\ping.h">
+      <Filter>CommLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ShineAxBrowse\CDShineAxBrowse.h">
+      <Filter>ShineAxBrowse</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\flashktv10.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\flashktv10.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+    <None Include="json\json_internalarray.inl">
+      <Filter>json</Filter>
+    </None>
+    <None Include="json\json_internalmap.inl">
+      <Filter>json</Filter>
+    </None>
+    <None Include="json\json_valueiterator.inl">
+      <Filter>json</Filter>
+    </None>
+    <None Include="json\sconscript">
+      <Filter>json</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="flashktv10.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\flashktv10.manifest" />
+  </ItemGroup>
+</Project>
